@@ -1,0 +1,175 @@
+
+h1 {text-align: center;
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 20px 20px 25px white;
+}
+
+h1::first-letter {
+    font-size: 75px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    position: static;
+    text-align: center;
+    font-size: x-large;
+}
+
+#szereplok > p {
+    color: black;
+    font-weight: bold;
+}
+
+p > q, #rovidismerteto {
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 1000px;
+    left: 0;
+    bottom: 600px;
+    font-size: 20px;
+}
+
+
+#vastron {
+    display: block;
+    margin: 0 auto;
+    float: top;
+    outline-style: solid;
+    outline-color: white;
+}
+
+
+article {
+    position: absolute;
+    top: 300px;
+    right: 1350px;
+    left: 0;
+    bottom: 400px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+address p {
+    color: goldenrod;
+    font-size: 18px;
+}
+
+a[href="mailto:Valaki@example.com"]:link { color: papayawhip; }
+a[href="mailto:Valaki@example.com"]:visited { color: gray; }
+a[href="mailto:Valaki@example.com"]:hover { color: orangered; }
+a[href="mailto:Valaki@example.com"]:active { color: red; }
+
+#szerzo {
+    font-size: 15px;
+}
+
+
+a[target="_blank"] {
+    font-size: 15px;
+}
+
+a[target="_blank"]:link { color: papayawhip; }
+a[target="_blank"]:visited { color: gray; }
+a[target="_blank"]:hover { color: orangered; }
+a[target="_blank"]:active { color: red; }
+
+
+   a[href="regisztracio.php"], a[href="kijelentkezes.php"] {
+    position: absolute;
+    top: 75px;
+    right: 150px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  a[href="bejelentkezes.php"], a[href="profil.php"] {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  a[href="regisztracio.php"]:link { color: yellow; }
+  a[href="regisztracio.php"]:visited { color:black; }
+  a[href="regisztracio.php"]:hover { color: orangered; }
+  a[href="regisztracio.php"]:active { color: red; }
+
+  a[href="kijelentkezes.php"]:link { color: yellow; }
+  a[href="kijelentkezes.php"]:visited { color: black; }
+  a[href="kijelentkezes.php"]:hover { color: orangered; }
+  a[href="kijelentkezes.php"]:active { color: red; }
+
+  a[href="bejelentkezes.php"]:link { color: yellow; }
+  a[href="bejelentkezes.php"]:visited { color: black; }
+  a[href="bejelentkezes.php"]:hover { color: orangered; }
+  a[href="bejelentkezes.php"]:active { color:red; }
+
+  a[href="profil.php"]:link { color: yellow; }
+  a[href="profil.php"]:visited { color: black; }
+  a[href="profil.php"]:hover { color: orangered; }
+  a[href="profil.php"]:active { color:red; }
+
+
+section > p::selection {
+    color: goldenrod;
+}
+
+q::selection {
+    color: goldenrod;
+}
+
+h2::selection {
+    color: goldenrod;
+}
+
+audio{
+    position: absolute;
+    right: 50px;
+    top: 380px;
+}
+
+
+iframe {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+
+@media print {
+    body {color: black;}
+    p { font-size: 12pt; }
+    audio { display: none; }
+}
+
+@page {
+    margin: 5pt;
+}
+
+@media only screen and (max-width: 450px) {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    body {
+        color: black;
+        font-size: 12px;
+    }
+}

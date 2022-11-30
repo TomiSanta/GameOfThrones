@@ -1,0 +1,4 @@
+a:7:{s:4:"fnev";s:9:"GoTFanHUN";s:6:"jelszo";s:7:"Proba01";s:5:"email";s:18:"Valaki@example.com";s:3:"kor";s:2:"20";s:4:"love";s:1:"5";s:9:"character";s:8:"Jon Snow";s:3:"haz";s:9:"targaryen";}
+a:7:{s:4:"fnev";s:5:"PROBA";s:6:"jelszo";s:7:"Proba02";s:5:"email";s:17:"proba@example.com";s:3:"kor";s:2:"16";s:4:"love";s:1:"3";s:9:"character";s:16:"Robert Baratheon";s:3:"haz";s:7:"valassz";}
+a:7:{s:4:"fnev";s:6:"PROBA2";s:6:"jelszo";s:7:"Proba03";s:5:"email";s:20:"proba123@example.com";s:3:"kor";s:2:"16";s:4:"love";s:1:"0";s:9:"character";s:5:"Nincs";s:3:"haz";s:5:"stark";}
+a:7:{s:4:"fnev";s:5:"Proba";s:6:"jelszo";s:7:"Proba01";s:5:"email";s:16:"valami@gmail.com";s:3:"kor";s:2:"16";s:4:"love";s:1:"5";s:9:"character";s:18:"Daenerys Targaryen";s:3:"haz";s:7:"valassz";}

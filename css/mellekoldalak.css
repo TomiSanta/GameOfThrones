@@ -1,0 +1,63 @@
+#tablazatok {
+    border-collapse: collapse;
+}
+
+#tablazatok th, #tablazatok td {
+    padding: 8px;
+}
+
+caption {
+    font-size: xx-large;
+}
+
+caption::first-letter {
+    font-size: 45px;
+}
+
+th, td {
+    vertical-align: middle;
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+#vonal {
+    text-align: center;
+}
+
+a[href="Fooldal.php"] {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    font-size: 18px;
+}
+
+a[target="_self"]:link { color: papayawhip; }
+a[target="_self"]:visited { color: papayawhip; }
+a[target="_self"]:hover { color: orange; }
+a[target="_self"]:active { color: red; }
+
+
+@media print {
+    body {color: black;}
+    p { font-size: 12pt; }
+    video {display: none;}
+}
+
+@page {
+    margin: 5pt;
+}
+
+@media only screen and (max-width: 450px) {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    body {
+        color:black;
+        font-size: 12px;
+    }
+}
